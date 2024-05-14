@@ -80,4 +80,4 @@ The API returns standard HTTP status codes to indicate the success or failure of
 
 Notes
 The book inventory is stored in memory and will be reset when the server restarts.
-The id of a book is automatically generated and should not be provided in requests to create new books.
+The id of a book is currently hard coded from 1-20 and it is set up to be replaced with a more comprehensive dataset.
