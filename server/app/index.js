@@ -6,7 +6,7 @@ const routeHandler = require("./routes/index");
 app.use(morgan("dev"));
 app.use(express.json());
 
-app.use('/api/v1', routeHandler);
+app.use('/', routeHandler);
 app.use("*", (request, response) => {
     response.status(404).send({
         success: false,
