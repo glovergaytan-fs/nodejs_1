@@ -7,7 +7,7 @@ const deleter = require("../delete");
 const delTitle = require("../delTitle");
 const putTitle = require("../putTitle")
 
-router.get("/:id", getter); //complete
+router.get("id/:id", getter); //complete
 
 router.get("/", getAll); //complete
 
